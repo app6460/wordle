@@ -63,7 +63,7 @@ body {
     text-align: center;
 }
 
-.input > input {
+.input > form > input {
     text-align: center;
     width: 100px;
     height: 100%;
@@ -76,6 +76,6 @@ body {
     transition: border-width 500ms ease-out;
 }
 
-.input > input:focus {
+.input > form > input:focus {
     border-width: 3px black;
 }
