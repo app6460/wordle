@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     letter-spacing: 2px;
 }
 
@@ -53,7 +53,11 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    background: linear-gradient(0deg, rgb(193, 225, 253) 21%, rgb(199, 201, 253) 100%);
+    background: linear-gradient(
+        0deg,
+        rgb(223, 245, 255) 21%,
+        rgb(223, 245, 255) 100%
+    );
     box-shadow: 0 0 0 5px black inset;
     border-radius: 15px;
 }
